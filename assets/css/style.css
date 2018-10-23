@@ -49,7 +49,18 @@
 
 
 
+/*contact*/
 
+#map-wrap {
+	position: relative;
+}
+
+#map {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
 
 
 
