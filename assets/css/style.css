@@ -1,7 +1,12 @@
 * {
 	margin: 0;
 	padding: 0;
+	font-family: 'Raleway', sans-serif;
 	box-sizing: border-box;
+}
+
+.navbar-brand {
+	font-family: 'Montserrat', sans-serif;	
 }
 
 /*landing page*/
@@ -61,6 +66,53 @@
 	left: 0;
 	width: 100%;
 }
+
+/*end contact*/
+
+/*about*/
+
+.fadeIn {
+	animation-duration: 5s;
+}
+
+#jumbotron-about {
+	background-color: #141414;
+	height: 90vh;
+	border-radius: 0;
+}
+
+#landing-about {
+	font-family: 'Montserrat', sans-serif;
+	color: #f2f2f2;
+	font-size: 5em;
+	padding-top: 20vh;
+	letter-spacing: 5px;
+}
+
+.about-tags {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
+#mission {
+	height: 100%;
+	background-color: #141414; /*off black*/
+	color: #f2f2f2; /*off white*/
+}
+
+#vision {
+	height: 100%;
+	background-color: #f2f2f2; /*off white*/
+	color: #141414; /*off black*/
+}
+
+
+
+
+
+
+
+
 
 
 
